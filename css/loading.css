@@ -1,4 +1,5 @@
 .loading-img {
-  background: url(https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center;
+  background: url(/source/img/loading.png) no-repeat center center; 
+  /* https: //npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp */
   background-size: cover;
 }
