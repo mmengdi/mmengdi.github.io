@@ -1205,5 +1205,14 @@ h6::before {
     display: none;
 }
 
-@import "//at.alicdn.com/t/c/font_3962804_6mhwx9gtnr7.css";
+/* @import "//at.alicdn.com/t/c/font_3962804_6mhwx9gtnr7.css"; */
+
+.iconfont {
+    font-family: "iconfont" !important;
+    /* 这里可以自定义图标大小 */
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
