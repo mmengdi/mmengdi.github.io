@@ -1,0 +1,4 @@
+/* 小横条bug修改 */
+#drone .container {
+    overflow: hidden;
+}

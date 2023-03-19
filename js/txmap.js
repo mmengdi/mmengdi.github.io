@@ -3,7 +3,7 @@ $.ajax({
     type: 'get',
     url: 'https://apis.map.qq.com/ws/location/v1/ip',
     data: {
-        key: 'CA2BZ-LABY3-POM3S-3CU7C-XUMZJ-E3BRV',
+        key: 'QDKBZ-XVZ2T-CB3XJ-VWNIA-PCLU2-INBU4',
         output: 'jsonp',
     },
     dataType: 'jsonp',
@@ -40,7 +40,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-    let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+    let dist = getDistance(108.94878, 34.22259, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
     let pos = ipLoacation.result.ad_info.nation;
     let ip;
     let posdesc;
