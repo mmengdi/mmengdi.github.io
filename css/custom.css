@@ -958,3 +958,38 @@ h6::before {
     color: #fff;
     background-color: var(167, 225, 235);
 }
+
+
+/* 字体设置 */
+@font-face {
+    /* 为载入的字体取名字(随意) */
+    font-family: 'Helvetica';
+    /* 字体文件地址(相对或者绝对路径都可以) */
+    src: url(/font/Helvetica/HELVETI1-1.ttf);
+    /* 定义加粗样式(加粗多少) */
+    font-weight: 500;
+    /* 定义字体样式(斜体/非斜体) */
+    font-style: normal;
+    /* 定义显示样式 */
+    font-display: block;
+}
+
+
+
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+    position: relative;
+    width: 90%;
+    height: auto;
+    padding-bottom: 75%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 86%;
+    left: 0;
+    top: 0;
+}
