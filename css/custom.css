@@ -938,7 +938,7 @@ h6::before {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(167, 225, 235);
+    background-color: (--theme-color);
     background-image: -webkit-linear-gradient(45deg,
             rgba(255, 255, 255, 0.4) 25%,
             transparent 25%,
@@ -956,7 +956,24 @@ h6::before {
 
 ::-moz-selection {
     color: #fff;
-    background-color: var(167, 225, 235);
+    background-color: (--main-bg-color);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background-color: #FF2A68;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
+    border-radius: 3em;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffcacaff;
+    border-radius: 3em;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px;
 }
 
 
@@ -1205,14 +1222,97 @@ h6::before {
     display: none;
 }
 
-/* @import "//at.alicdn.com/t/c/font_3962804_6mhwx9gtnr7.css"; */
 
-.iconfont {
-    font-family: "iconfont" !important;
-    /* 这里可以自定义图标大小 */
-    font-size: 3em;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+/* twikoo评论美化 */
+/* 自定义twikoo评论输入框高度 */
+#twikoo .el-textarea textarea {
+    min-height: 120px !important;
+    background-size: 90px;
 }
 
+/* 自定义表情优化 */
+#twikoo .OwO-body {
+    max-width: 100% !important;
+}
+
+/* 选择某个框 #twikoo .OwO .OwO-body .OwO-items:nth-child(1) */
+#twikoo .OwO .OwO-body .OwO-items {
+    max-height: 250px !important;
+}
+
+.OwO .OwO-body .OwO-items-image .OwO-item {
+    max-width: calc(9% - 10px);
+    box-sizing: content-box;
+}
+
+.OwO .OwO-body .OwO-items-image .OwO-item[title|="Heybox"],
+.OwO .OwO-body .OwO-items-image .OwO-item[title|="Tieba"],
+.OwO .OwO-body .OwO-items-show .OwO-item[title*="bilibili"] {
+    max-width: calc(7% - 10px) !important;
+    box-sizing: content-box;
+}
+
+#twikoo .OwO-items li img {
+    width: 100% !important;
+}
+
+.tk-comment .vemoji[alt|="Menhera"],
+.tk-comment .tk-owo-emotion[alt*="Menhera"],
+.tk-comment .vemoji[alt|="Snow"],
+.tk-comment .tk-owo-emotion[alt*="Snow"],
+.tk-comment .vemoji[alt|="Sweetie"],
+.tk-comment .tk-owo-emotion[alt*="Sweetie"],
+.tk-comment .vemoji[alt|="Tsuri"],
+.tk-comment .tk-owo-emotion[alt*="Tsuri"],
+.tk-comment .vemoji[alt|="Yurui"],
+.tk-comment .tk-owo-emotion[alt*="Yurui"] {
+    max-width: 120px !important;
+    max-height: 120px !important;
+    width: 120px;
+    margin: 8px 1px;
+    display: block !important;
+}
+
+/* 手机端适配 */
+@media screen and (max-width: 768px) {
+
+    .tk-comment .vemoji[alt|="Menhera"],
+    .tk-comment .tk-owo-emotion[alt*="Menhera"],
+    .tk-comment .vemoji[alt|="Snow"],
+    .tk-comment .tk-owo-emotion[alt*="Snow"],
+    .tk-comment .vemoji[alt|="Sweetie"],
+    .tk-comment .tk-owo-emotion[alt*="Sweetie"],
+    .tk-comment .vemoji[alt|="Tsuri"],
+    .tk-comment .tk-owo-emotion[alt*="Tsuri"],
+    .tk-comment .vemoji[alt|="Yurui"],
+    .tk-comment .tk-owo-emotion[alt*="Yurui"] {
+        max-width: calc(100% - 30px) !important;
+        max-height: calc(100% - 30px) !important;
+    }
+
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Menhera"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Snow"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Sweetie"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Tsuri"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Yurui"] {
+        max-width: calc(33% - 10px);
+        box-sizing: border-box;
+    }
+
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Heybox"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="bilibili"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="Tieba"],
+    .OwO .OwO-body .OwO-items-image .OwO-item[title*="QQ"] {
+        max-width: calc(18% - 10px) !important;
+        box-sizing: content-box;
+    }
+}
+
+/* 右下角闭眼 */
+.el-textarea__inner {
+    background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/open.webp) !important;
+}
+
+.el-textarea__inner:focus {
+    background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/close.webp) !important;
+}

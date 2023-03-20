@@ -825,3 +825,19 @@ document.addEventListener('DOMContentLoaded', function () {
   refreshFn()
   unRefreshFn()
 })
+
+
+// 在你想要弹出弹窗的js代码中加入如下代码即可触发弹窗：
+new Vue({
+  data: function () {
+    this.$notify({
+      title: "你来啦😊😊",
+      message: "我在这里等你很久啦！🦋🦋",
+      position: 'top-left',
+      offset: 50,
+      showClose: true,
+      type: "warning",
+      duration: 5000
+    });
+  }
+})
