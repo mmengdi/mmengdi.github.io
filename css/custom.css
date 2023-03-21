@@ -254,9 +254,9 @@
 }
 
 /* 子菜单横向展示 */
-#nav .menus_items .menus_item:hover .menus_item_child {
+/* #nav .menus_items .menus_item:hover .menus_item_child {
     display: flex !important;
-}
+} */
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(5) .menus_item_child {
@@ -271,13 +271,12 @@
 }
 
 
-/* 鼠标样式 */
+/* 鼠标样式
 #cursor {
     position: fixed;
     width: 16px;
     height: 16px;
-    /* 这里改变跟随的底色 */
-    background: rgb(191, 115, 206);
+    background: rgb(191, 115, 206);  
     border-radius: 8px;
     opacity: 0.25;
     z-index: 10086;
@@ -306,7 +305,7 @@
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
-}
+} */
 
 
 /* 欢迎信息 */
@@ -926,7 +925,7 @@ h6::before {
 
 /* 其中var(--theme-color)换成你自己的主题色： */
 
-
+/* 滚动条样式 */
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -938,7 +937,7 @@ h6::before {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: (--theme-color);
+    background-color: var(--theme-color);
     background-image: -webkit-linear-gradient(45deg,
             rgba(255, 255, 255, 0.4) 25%,
             transparent 25%,
@@ -956,10 +955,11 @@ h6::before {
 
 ::-moz-selection {
     color: #fff;
-    background-color: (--main-bg-color);
+    background-color: var(--theme-color);
 }
 
-/* 滚动条 */
+
+/* 滚动条
 ::-webkit-scrollbar-thumb {
     background-color: #FF2A68;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
@@ -974,7 +974,7 @@ h6::before {
 ::-webkit-scrollbar {
     width: 8px;
     height: 15px;
-}
+} */
 
 
 /* 字体设置 */
@@ -1315,4 +1315,29 @@ h6::before {
 
 .el-textarea__inner:focus {
     background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/close.webp) !important;
+}
+
+
+
+
+/* 侧边栏社交图标 */
+svg.icon {
+    width: 1.28em;
+    height: 1.28em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+/* 调节社交图标大小 */
+svg.social_icon {
+    width: 1.20em;
+    height: 1.20em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body {
+    cursor: url('../img/normal.cur'),auto;
 }
