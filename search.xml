@@ -70,17 +70,6 @@
     
     
     <entry>
-      <title>bangumis</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- 防止请求次数过多插件不再自动获取番剧数据，所以请根据自己的需要在hexo generate或hexo deploy之前使用hexo bangumi -u命令更新番剧数据。删除数据命令: hexo bangumi -d -->]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -103,20 +92,31 @@
     
     
     <entry>
-      <title>census</title>
-      <link href="/census/index.html"/>
-      <url>/census/index.html</url>
+      <title></title>
+      <link href="/css/bar.css"/>
+      <url>/css/bar.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 小横条bug修改 */#drone .container {    overflow: hidden;}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>bangumis</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- 防止请求次数过多插件不再自动获取番剧数据，所以请根据自己的需要在hexo generate或hexo deploy之前使用hexo bangumi -u命令更新番剧数据。删除数据命令: hexo bangumi -d -->]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>census</title>
+      <link href="/census/index.html"/>
+      <url>/census/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -136,11 +136,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/bar.css"/>
-      <url>/css/bar.css</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
-        <content type="html"><![CDATA[/* 小横条bug修改 */#drone .container {    overflow: hidden;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -214,10 +214,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/video_bufen.css"/>
-      <url>/css/video_bufen.css</url>
+      <link href="/css/wave.css"/>
+      <url>/css/wave.css</url>
       
-        <content type="html"><![CDATA[#index-video {    z-index: 0;    position: absolute;    top: 0;    left: 0;    height: 80vh;    width: 100%;    object-fit: cover;}@media only screen and (max-width: 768px) {    #index-video {        display: none;    }}@media only screen and (min-width: 768px) {    .bg-cover {        background-image: none !important;    }}]]></content>
+        <content type="html"><![CDATA[/* 波浪css */.main-hero-waves-area {    width: 100%;    position: absolute;    left: 0;    bottom: -11px;    z-index: 5;}.waves-area .waves-svg {    width: 100%;    height: 5rem;}/* Animation */.parallax>use {    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;}.parallax>use:nth-child(1) {    animation-delay: -2s;    animation-duration: 7s;    fill: #f7f9febd;}.parallax>use:nth-child(2) {    animation-delay: -3s;    animation-duration: 10s;    fill: #f7f9fe82;}.parallax>use:nth-child(3) {    animation-delay: -4s;    animation-duration: 13s;    fill: #f7f9fe36;}.parallax>use:nth-child(4) {    animation-delay: -5s;    animation-duration: 20s;    fill: #f7f9fe;}/* 黑色模式背景 */[data-theme="dark"] .parallax>use:nth-child(1) {    animation-delay: -2s;    animation-duration: 7s;    fill: #18171dc8;}[data-theme="dark"] .parallax>use:nth-child(2) {    animation-delay: -3s;    animation-duration: 10s;    fill: #18171d80;}[data-theme="dark"] .parallax>use:nth-child(3) {    animation-delay: -4s;    animation-duration: 13s;    fill: #18171d3e;}[data-theme="dark"] .parallax>use:nth-child(4) {    animation-delay: -5s;    animation-duration: 20s;    fill: #18171d;}@keyframes move-forever {    0% {        transform: translate3d(-90px, 0, 0);    }    100% {        transform: translate3d(85px, 0, 0);    }}/*Shrinking for mobile*/@media (max-width: 768px) {    .waves-area .waves-svg {        height: 40px;        min-height: 40px;    }}]]></content>
       
     </entry>
     
@@ -225,10 +225,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/wave.css"/>
-      <url>/css/wave.css</url>
+      <link href="/css/video_bufen.css"/>
+      <url>/css/video_bufen.css</url>
       
-        <content type="html"><![CDATA[/* 波浪css */.main-hero-waves-area {    width: 100%;    position: absolute;    left: 0;    bottom: -11px;    z-index: 5;}.waves-area .waves-svg {    width: 100%;    height: 5rem;}/* Animation */.parallax>use {    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;}.parallax>use:nth-child(1) {    animation-delay: -2s;    animation-duration: 7s;    fill: #f7f9febd;}.parallax>use:nth-child(2) {    animation-delay: -3s;    animation-duration: 10s;    fill: #f7f9fe82;}.parallax>use:nth-child(3) {    animation-delay: -4s;    animation-duration: 13s;    fill: #f7f9fe36;}.parallax>use:nth-child(4) {    animation-delay: -5s;    animation-duration: 20s;    fill: #f7f9fe;}/* 黑色模式背景 */[data-theme="dark"] .parallax>use:nth-child(1) {    animation-delay: -2s;    animation-duration: 7s;    fill: #18171dc8;}[data-theme="dark"] .parallax>use:nth-child(2) {    animation-delay: -3s;    animation-duration: 10s;    fill: #18171d80;}[data-theme="dark"] .parallax>use:nth-child(3) {    animation-delay: -4s;    animation-duration: 13s;    fill: #18171d3e;}[data-theme="dark"] .parallax>use:nth-child(4) {    animation-delay: -5s;    animation-duration: 20s;    fill: #18171d;}@keyframes move-forever {    0% {        transform: translate3d(-90px, 0, 0);    }    100% {        transform: translate3d(85px, 0, 0);    }}/*Shrinking for mobile*/@media (max-width: 768px) {    .waves-area .waves-svg {        height: 40px;        min-height: 40px;    }}]]></content>
+        <content type="html"><![CDATA[#index-video {    z-index: 0;    position: absolute;    top: 0;    left: 0;    height: 80vh;    width: 100%;    object-fit: cover;}@media only screen and (max-width: 768px) {    #index-video {        display: none;    }}@media only screen and (min-width: 768px) {    .bg-cover {        background-image: none !important;    }}]]></content>
       
     </entry>
     
@@ -335,17 +335,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent; // 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/newYear.js"/>
       <url>/js/newYear.js</url>
       
@@ -357,10 +346,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {    // 当前时间    now.setTime(now.getTime() + 1000);    var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间    var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒    var unit = (dis / 149600000).toFixed(6); // 天文单位    var grt = new Date("03/18/2023 00:00:00"); // 网站诞生时间    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9 ?        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/1e71f8dd7e6d42dd826977a36bc12042' title='当困苦姗姗而来之时，超越它们会更有余味。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold>本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`:        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/61d5211ec5134693adadb1e3204b79e8' title='天空黑暗到一定程度，星辰就会熠熠生辉。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold;">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&        (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {    createtime();}, 1000);]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent; // 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -368,10 +357,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/sun_moon.js"/>
-      <url>/js/sun_moon.js</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[function switchNightMode() {    document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),        setTimeout(function () {            document.querySelector('body').classList.contains('DarkMode') ? (document.querySelector('body').classList.remove('DarkMode'), localStorage.setItem('isDark', '0'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')) : (document.querySelector('body').classList.add('DarkMode'), localStorage.setItem('isDark', '1'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')),                setTimeout(function () {                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.transition = 'opacity 3s';                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.opacity = '0';                    setTimeout(function () {                        document.getElementsByClassName('Cuteen_DarkSky')[0].remove();                    }, 1e3);                }, 2e3)        })    const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'    if (nowMode === 'light') {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "1";        document.getElementById("moon").style.opacity = "0";        setTimeout(function () {            document.getElementById("sun").style.opacity = "0";            document.getElementById("moon").style.opacity = "1";        }, 1000);        activateDarkMode()        saveToLocal.set('theme', 'dark', 2)        // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')        // 延时弹窗提醒        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "关灯啦🌙",                        message: "当前已成功切换至夜间模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    } else {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "0";        document.getElementById("moon").style.opacity = "1";        setTimeout(function () {            document.getElementById("sun").style.opacity = "1";            document.getElementById("moon").style.opacity = "0";        }, 1000);        activateLightMode()        saveToLocal.set('theme', 'light', 2)        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "开灯啦🌞",                        message: "当前已成功切换至白天模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    }    // handle some cases    typeof utterancesTheme === 'function' && utterancesTheme()    typeof FB === 'object' && window.loadFBComment()    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)}]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {    // 当前时间    now.setTime(now.getTime() + 1000);    var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间    var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒    var unit = (dis / 149600000).toFixed(6); // 天文单位    var grt = new Date("03/18/2023 00:00:00"); // 网站诞生时间    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9 ?        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/1e71f8dd7e6d42dd826977a36bc12042' title='当困苦姗姗而来之时，超越它们会更有余味。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold>本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`:        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/61d5211ec5134693adadb1e3204b79e8' title='天空黑暗到一定程度，星辰就会熠熠生辉。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold;">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&        (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {    createtime();}, 1000);]]></content>
       
     </entry>
     
@@ -401,43 +390,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {    if (document.hidden) {        //离开当前页面时标签显示内容        document.title = '怎么走开啦！😭😭';        clearTimeout(titleTime);    } else {        //返回当前页面时标签显示内容        document.title = '你来啦！😊😊';        //两秒后变回正常标题        titleTime = setTimeout(function () {            document.title = OriginTitile;        }, 2000);    }});// 在你想要弹出弹窗的js代码中加入如下代码即可触发弹窗：new Vue({    data: function () {        this.$notify({            title: "你来啦😊😊",            message: "我在这里等你很久啦！🦋🦋",            position: 'top-left',            offset: 50,            showClose: true,            type: "warning",            duration: 5000        });    }})]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;    var n, e, i, h, t = .05,        s = document.getElementById("universe"),        o = !0,        a = "180,184,240",        r = "226,225,142",        d = "226,225,224",        c = [];    function f() {        n = window.innerWidth, e = window.innerHeight, i = .216 * n, s.setAttribute("width", n), s.setAttribute("height", e)    }    function u() {        h.clearRect(0, 0, n, e);        for (var t = c.length, i = 0; i < t; i++) {            var s = c[i];            s.move(), s.fadeIn(), s.fadeOut(), s.draw()        }    }    function y() {        this.reset = function () {            this.giant = m(3), this.comet = !this.giant && !o && m(10), this.x = l(0, n - 10), this.y = l(0, e), this.r = l(1.1, 2.6), this.dx = l(t, 6 * t) + (this.comet + 1 - 1) * t * l(50, 120) + 2 * t, this.dy = -l(t, 6 * t) - (this.comet + 1 - 1) * t * l(50, 120), this.fadingOut = null, this.fadingIn = !0, this.opacity = 0, this.opacityTresh = l(.2, 1 - .4 * (this.comet + 1 - 1)), this.do = l(5e-4, .002) + .001 * (this.comet + 1 - 1)        }, this.fadeIn = function () {            this.fadingIn && (this.fadingIn = !(this.opacity > this.opacityTresh), this.opacity += this.do)        }, this.fadeOut = function () {            this.fadingOut && (this.fadingOut = !(this.opacity < 0), this.opacity -= this.do / 2, (this.x > n || this.y < 0) && (this.fadingOut = !1, this.reset()))        }, this.draw = function () {            if (h.beginPath(), this.giant) h.fillStyle = "rgba(" + a + "," + this.opacity + ")", h.arc(this.x, this.y, 2, 0, 2 * Math.PI, !1);            else if (this.comet) {                h.fillStyle = "rgba(" + d + "," + this.opacity + ")", h.arc(this.x, this.y, 1.5, 0, 2 * Math.PI, !1);                for (var t = 0; t < 30; t++) h.fillStyle = "rgba(" + d + "," + (this.opacity - this.opacity / 20 * t) + ")", h.rect(this.x - this.dx / 4 * t, this.y - this.dy / 4 * t - 2, 2, 2), h.fill()            } else h.fillStyle = "rgba(" + r + "," + this.opacity + ")", h.rect(this.x, this.y, this.r, this.r);            h.closePath(), h.fill()        }, this.move = function () {            this.x += this.dx, this.y += this.dy, !1 === this.fadingOut && this.reset(), (this.x > n - n / 4 || this.y < 0) && (this.fadingOut = !0)        }, setTimeout(function () {            o = !1        }, 50)    }    function m(t) {        return Math.floor(1e3 * Math.random()) + 1 < 10 * t    }    function l(t, i) {        return Math.random() * (i - t) + t    }    f(), window.addEventListener("resize", f, !1),        function () {            h = s.getContext("2d");            for (var t = 0; t < i; t++) c[t] = new y, c[t].reset();            u()        }(),        function t() {            document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark' && u(), window.requestAnimationFrame(t)        }()};dark()]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/weather.js"/>
-      <url>/js/weather.js</url>
-      
-        <content type="html"><![CDATA[WIDGET = {    "CONFIG": {        "modules": "01234",        "background": "5",        "tmpColor": "E1CCAD",        "tmpSize": "16",        "cityColor": "DEADC2",        "citySize": "16",        "aqiColor": "6ABCCC",        "aqiSize": "16",        "weatherIconSize": "24",        "alertIconSize": "18",        "padding": "10px 10px 10px 10px",        "shadow": "0",        "language": "auto",        "fixed": "false",        "vertical": "top",        "horizontal": "left",        "key": "0616e5da16784285996545d136f7d385"    }}]]></content>
       
     </entry>
     
@@ -455,6 +411,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/sun_moon.js"/>
+      <url>/js/sun_moon.js</url>
+      
+        <content type="html"><![CDATA[function switchNightMode() {    document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),        setTimeout(function () {            document.querySelector('body').classList.contains('DarkMode') ? (document.querySelector('body').classList.remove('DarkMode'), localStorage.setItem('isDark', '0'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')) : (document.querySelector('body').classList.add('DarkMode'), localStorage.setItem('isDark', '1'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')),                setTimeout(function () {                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.transition = 'opacity 3s';                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.opacity = '0';                    setTimeout(function () {                        document.getElementsByClassName('Cuteen_DarkSky')[0].remove();                    }, 1e3);                }, 2e3)        })    const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'    if (nowMode === 'light') {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "1";        document.getElementById("moon").style.opacity = "0";        setTimeout(function () {            document.getElementById("sun").style.opacity = "0";            document.getElementById("moon").style.opacity = "1";        }, 1000);        activateDarkMode()        saveToLocal.set('theme', 'dark', 2)        // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')        // 延时弹窗提醒        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "关灯啦🌙",                        message: "当前已成功切换至夜间模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    } else {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "0";        document.getElementById("moon").style.opacity = "1";        setTimeout(function () {            document.getElementById("sun").style.opacity = "1";            document.getElementById("moon").style.opacity = "0";        }, 1000);        activateLightMode()        saveToLocal.set('theme', 'light', 2)        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "开灯啦🌞",                        message: "当前已成功切换至白天模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    }    // handle some cases    typeof utterancesTheme === 'function' && utterancesTheme()    typeof FB === 'object' && window.loadFBComment()    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -466,9 +433,20 @@
     
     
     <entry>
-      <title>nav</title>
-      <link href="/nav/index.html"/>
-      <url>/nav/index.html</url>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {    if (document.hidden) {        //离开当前页面时标签显示内容        document.title = '怎么走开啦！😭😭';        clearTimeout(titleTime);    } else {        //返回当前页面时标签显示内容        document.title = '你来啦！😊😊';        //两秒后变回正常标题        titleTime = setTimeout(function () {            document.title = OriginTitile;        }, 2000);    }});// 在你想要弹出弹窗的js代码中加入如下代码即可触发弹窗：new Vue({    data: function () {        this.$notify({            title: "你来啦😊😊",            message: "我在这里等你很久啦！🦋🦋",            position: 'top-left',            offset: 50,            showClose: true,            type: "warning",            duration: 5000        });    }})]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -488,11 +466,22 @@
     
     
     <entry>
-      <title>personal</title>
-      <link href="/personal/index.html"/>
-      <url>/personal/index.html</url>
+      <title>nav</title>
+      <link href="/nav/index.html"/>
+      <url>/nav/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>posts</title>
+      <link href="/posts/index.html"/>
+      <url>/posts/index.html</url>
+      
+        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
       
     </entry>
     
@@ -510,9 +499,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>personal</title>
+      <link href="/personal/index.html"/>
+      <url>/personal/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -521,11 +510,22 @@
     
     
     <entry>
-      <title>posts</title>
-      <link href="/posts/index.html"/>
-      <url>/posts/index.html</url>
+      <title></title>
+      <link href="/js/weather.js"/>
+      <url>/js/weather.js</url>
       
-        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
+        <content type="html"><![CDATA[WIDGET = {    "CONFIG": {        "modules": "01234",        "background": "5",        "tmpColor": "E1CCAD",        "tmpSize": "16",        "cityColor": "DEADC2",        "citySize": "16",        "aqiColor": "6ABCCC",        "aqiSize": "16",        "weatherIconSize": "24",        "alertIconSize": "18",        "padding": "10px 10px 10px 10px",        "shadow": "0",        "language": "auto",        "fixed": "false",        "vertical": "top",        "horizontal": "left",        "key": "0616e5da16784285996545d136f7d385"    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
