@@ -81,17 +81,6 @@
     
     
     <entry>
-      <title>census</title>
-      <link href="/census/index.html"/>
-      <url>/census/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>时间轴</title>
       <link href="/archives/index.html"/>
       <url>/archives/index.html</url>
@@ -114,33 +103,33 @@
     
     
     <entry>
+      <title>census</title>
+      <link href="/census/index.html"/>
+      <url>/census/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/bar.css"/>
       <url>/css/bar.css</url>
       
         <content type="html"><![CDATA[/* 小横条bug修改 */#drone .container {    overflow: hidden;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/emoji.css"/>
-      <url>/css/emoji.css</url>
-      
-        <content type="html"><![CDATA[#owo-big {    position: fixed;    align-items: center;    background-color: rgb(255, 255, 255);    border: 1px #aaa solid;    border-radius: 10px;    z-index: 9999;    display: none;    transform: translate(0, -105%);    overflow: hidden;    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);}[data-theme=dark] #owo-big {    background-color: #4a4a4a}#owo-big img {    width: 100%;}/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */@keyframes owoIn {    0% {        transform: translate(0, -95%);        opacity: 0;    }    100% {        transform: translate(0, -105%);        opacity: 1;    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/kslink.css"/>
-      <url>/css/kslink.css</url>
-      
-        <content type="html"><![CDATA[/* 添加友链按钮 *//* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transition: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 40px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid,.fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
       
     </entry>
     
@@ -159,10 +148,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
+      <link href="/css/kslink.css"/>
+      <url>/css/kslink.css</url>
       
-        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;}.pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;}.pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;}@keyframes gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}]]></content>
+        <content type="html"><![CDATA[/* 添加友链按钮 *//* 快速填写格式 */.addBtn {    display: flex;    justify-content: center;    flex-wrap: wrap;}.addBtn button {    transition: .2s;    display: flex;    margin: 5px auto;    color: var(--global-bg);    padding: 15px;    border-radius: 40px;    background: var(--search-result-title);    align-items: center;}button {    padding: 0;    outline: 0;    border: none;    background: 0 0;    cursor: pointer;    touch-action: manipulation;}.fa-solid,.fas {    font-family: "Font Awesome 6 Free";    font-weight: 900;}.addBtn i {    font-size: 1.3rem;    margin-right: 10px;}.addBtn button:hover {    background: var(--theme-color);    color: #fff;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/emoji.css"/>
+      <url>/css/emoji.css</url>
+      
+        <content type="html"><![CDATA[#owo-big {    position: fixed;    align-items: center;    background-color: rgb(255, 255, 255);    border: 1px #aaa solid;    border-radius: 10px;    z-index: 9999;    display: none;    transform: translate(0, -105%);    overflow: hidden;    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);}[data-theme=dark] #owo-big {    background-color: #4a4a4a}#owo-big img {    width: 100%;}/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */@keyframes owoIn {    0% {        transform: translate(0, -95%);        opacity: 0;    }    100% {        transform: translate(0, -105%);        opacity: 1;    }}]]></content>
       
     </entry>
     
@@ -181,10 +181,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe {    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;}]]></content>
+        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;}.pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;}.pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;}@keyframes gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}]]></content>
       
     </entry>
     
@@ -196,6 +196,17 @@
       <url>/css/readPercent.css</url>
       
         <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px !important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe {    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;}]]></content>
       
     </entry>
     
@@ -224,17 +235,6 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>游戏</title>
       <link href="/games/index.html"/>
       <url>/games/index.html</url>
@@ -246,11 +246,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/day.js"/>
-      <url>/js/day.js</url>
+      <title>分类</title>
+      <link href="/library/index.html"/>
+      <url>/library/index.html</url>
       
-        <content type="html"><![CDATA[var d = new Date();m = d.getMonth() + 1;dd = d.getDate();y = d.getFullYear();// 公祭日if (m == 9 && dd == 18) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是九一八事变" + (y - 1931).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 7) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是卢沟桥事变" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 13) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是南京大屠杀" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 14) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}// 节假日if (m == 10 && dd <= 3) { //国庆节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 15) { //搞来玩的，小日子投降    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 1 && dd == 1) { //元旦节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年元旦快乐！🎉");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 3 && dd == 8) { //妇女节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位女神们，妇女节快乐！👩");        sessionStorage.setItem("isPopupWindow", "1");    }}l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！"]if (m == 4 && dd == 1) { //愚人节，随机谎话    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(l[Math.floor(Math.random() * l.length)]);        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 1) { //劳动节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("劳动节快乐\n为各行各业辛勤工作的人们致敬！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 4) { //青年节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 20) { //520    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 1) { //建党节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 9 && dd == 10) { //教师节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位老师们教师节快乐！👩‍🏫");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 11 && dd == 1) { //你的生日    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝你今天生日快乐！🎂🎂🎂");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 25) { //圣诞节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("圣诞节快乐！🎄");        sessionStorage.setItem("isPopupWindow", "1");    }}//传统节日部分if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) { //清明节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("清明时节雨纷纷,一束鲜花祭故人💐");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) { //冬至    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");        sessionStorage.setItem("isPopupWindow", "1");    }}var lunar = calendarFormatter.solar2lunar();//农历采用汉字计算，防止出现闰月导致问题if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {    //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {    //元宵节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("元宵节快乐\n送你一个大大的灯笼🧅");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {    //端午节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("端午节快乐\n请你吃一条粽子🍙");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {    //七夕节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("七夕节快乐\n黄昏后,柳梢头,牛郎织女来碰头");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {    //中秋节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("中秋节快乐\n请你吃一块月饼🍪");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {    //重阳节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");        sessionStorage.setItem("isPopupWindow", "1");    }}// 切换主题提醒if (y == 2023 && m == 12 && (dd >= 18 && dd <= 20)) {    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("网站换成冬日限定主题啦⛄");        sessionStorage.setItem("isPopupWindow", "1");    }}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -269,6 +269,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/day.js"/>
+      <url>/js/day.js</url>
+      
+        <content type="html"><![CDATA[var d = new Date();m = d.getMonth() + 1;dd = d.getDate();y = d.getFullYear();// 公祭日if (m == 9 && dd == 18) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是九一八事变" + (y - 1931).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 7) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是卢沟桥事变" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 13) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是南京大屠杀" + (y - 1937).toString() + "周年纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 14) {    document.getElementsByTagName("html")[0].setAttribute("style", "filter: grayscale(60%);");    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今天是世界慰安妇纪念日\n🪔勿忘国耻，振兴中华🪔");        sessionStorage.setItem("isPopupWindow", "1");    }}// 节假日if (m == 10 && dd <= 3) { //国庆节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝祖国" + (y - 1949).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 8 && dd == 15) { //搞来玩的，小日子投降    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 1 && dd == 1) { //元旦节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年元旦快乐！🎉");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 3 && dd == 8) { //妇女节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位女神们，妇女节快乐！👩");        sessionStorage.setItem("isPopupWindow", "1");    }}l = ["非常抱歉，因为不可控原因，博客将于明天停止运营！", "好消息，日本没了！", "美国垮了，原因竟然是川普！", "微软垮了！", "你的电脑已经过载，建议立即关机！"]if (m == 4 && dd == 1) { //愚人节，随机谎话    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(l[Math.floor(Math.random() * l.length)]);        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 1) { //劳动节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("劳动节快乐\n为各行各业辛勤工作的人们致敬！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 4) { //青年节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 5 && dd == 20) { //520    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 7 && dd == 1) { //建党节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 9 && dd == 10) { //教师节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("各位老师们教师节快乐！👩‍🏫");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 11 && dd == 1) { //你的生日    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("祝你今天生日快乐！🎂🎂🎂");        sessionStorage.setItem("isPopupWindow", "1");    }}if (m == 12 && dd == 25) { //圣诞节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("圣诞节快乐！🎄");        sessionStorage.setItem("isPopupWindow", "1");    }}//传统节日部分if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y == 2025 && m == 4 && dd == 4)) { //清明节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("清明时节雨纷纷,一束鲜花祭故人💐");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) { //冬至    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");        sessionStorage.setItem("isPopupWindow", "1");    }}var lunar = calendarFormatter.solar2lunar();//农历采用汉字计算，防止出现闰月导致问题if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {    //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "十五")) {    //元宵节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("元宵节快乐\n送你一个大大的灯笼🧅");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "五月" && lunar["IDayCn"] == "初五")) {    //端午节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("端午节快乐\n请你吃一条粽子🍙");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {    //七夕节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("七夕节快乐\n黄昏后,柳梢头,牛郎织女来碰头");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {    //中秋节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("中秋节快乐\n请你吃一块月饼🍪");        sessionStorage.setItem("isPopupWindow", "1");    }}if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {    //重阳节    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("重阳节快乐\n独在异乡为异客，每逢佳节倍思亲");        sessionStorage.setItem("isPopupWindow", "1");    }}// 切换主题提醒if (y == 2023 && m == 12 && (dd >= 18 && dd <= 20)) {    if (sessionStorage.getItem("isPopupWindow") != "1") {        Swal.fire("网站换成冬日限定主题啦⛄");        sessionStorage.setItem("isPopupWindow", "1");    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/emoji.js"/>
       <url>/js/emoji.js</url>
       
@@ -280,10 +291,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/fps.js"/>
-      <url>/js/fps.js</url>
+      <link href="/js/key.js"/>
+      <url>/js/key.js</url>
       
-        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}]]></content>
+        <content type="html"><![CDATA[// 防抖全局计时器let TT = null; //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "复制成功🦋🦋",                    message: "放弃也是需要勇气的😴😴",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})// 在你想要弹出弹窗的js代码中加入如下代码即可触发弹窗：new Vue({    data: function () {        this.$notify({            title: "你来啦😊😊",            message: "我在这里等你很久啦！🦋🦋",            position: 'top-left',            offset: 50,            showClose: true,            type: "warning",            duration: 5000        });    }})]]></content>
       
     </entry>
     
@@ -291,10 +302,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/key.js"/>
-      <url>/js/key.js</url>
+      <link href="/js/fps.js"/>
+      <url>/js/fps.js</url>
       
-        <content type="html"><![CDATA[// 防抖全局计时器let TT = null; //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "复制成功🦋🦋",                    message: "放弃也是需要勇气的😴😴",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})// 在你想要弹出弹窗的js代码中加入如下代码即可触发弹窗：new Vue({    data: function () {        this.$notify({            title: "你来啦😊😊",            message: "我在这里等你很久啦！🦋🦋",            position: 'top-left',            offset: 50,            showClose: true,            type: "warning",            duration: 5000        });    }})]]></content>
+        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}]]></content>
       
     </entry>
     
@@ -357,10 +368,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/share.js"/>
-      <url>/js/share.js</url>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[// 分享本页function share_() {    let url = window.location.origin + window.location.pathname    try {        // 截取标题        var title = document.title;        var subTitle = title.endsWith("| mmengdi🦋🦋") ? title.substring(0, title.length - 14) : title;        navigator.clipboard.writeText('mmengdi🦋🦋的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！😎😎');        new Vue({            data: function () {                this.$notify({                    title: "成功复制分享信息🎉",                    message: "您现在可以通过粘贴直接跟小伙伴分享了！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });                // return { visible: false }            }        })    } catch (err) {        console.error('复制失败！', err);    }    // new ClipboardJS(".share", { text: function () { return '标题：' + document.title + '\n链接：' + url } });    // btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")}// 防抖function share() {    debounce(share_, 300);}]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {    // 当前时间    now.setTime(now.getTime() + 1000);    var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间    var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒    var unit = (dis / 149600000).toFixed(6); // 天文单位    var grt = new Date("03/18/2023 00:00:00"); // 网站诞生时间    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9 ?        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/1e71f8dd7e6d42dd826977a36bc12042' title='当困苦姗姗而来之时，超越它们会更有余味。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold>本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`:        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/61d5211ec5134693adadb1e3204b79e8' title='天空黑暗到一定程度，星辰就会熠熠生辉。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold;">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&        (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {    createtime();}, 1000);]]></content>
       
     </entry>
     
@@ -368,10 +379,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
+      <link href="/js/share.js"/>
+      <url>/js/share.js</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {    // 当前时间    now.setTime(now.getTime() + 1000);    var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间    var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒    var unit = (dis / 149600000).toFixed(6); // 天文单位    var grt = new Date("03/18/2023 00:00:00"); // 网站诞生时间    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9 ?        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/1e71f8dd7e6d42dd826977a36bc12042' title='当困苦姗姗而来之时，超越它们会更有余味。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold>本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`:        `<img class='boardsign' src='https://s1.vika.cn/space/2023/03/22/61d5211ec5134693adadb1e3204b79e8' title='天空黑暗到一定程度，星辰就会熠熠生辉。' style="width: 25px; height: 25px;"><br> <div style="font-size:13px;font-weight:bold;">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> mmengdi当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),    document.getElementById("workboard") &&        (document.getElementById("workboard").innerHTML = currentTimeHtml);}// 设置重复执行函数，周期1000mssetInterval(() => {    createtime();}, 1000);]]></content>
+        <content type="html"><![CDATA[// 分享本页function share_() {    let url = window.location.origin + window.location.pathname    try {        // 截取标题        var title = document.title;        var subTitle = title.endsWith("| mmengdi🦋🦋") ? title.substring(0, title.length - 14) : title;        navigator.clipboard.writeText('mmengdi🦋🦋的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！😎😎');        new Vue({            data: function () {                this.$notify({                    title: "成功复制分享信息🎉",                    message: "您现在可以通过粘贴直接跟小伙伴分享了！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });                // return { visible: false }            }        })    } catch (err) {        console.error('复制失败！', err);    }    // new ClipboardJS(".share", { text: function () { return '标题：' + document.title + '\n链接：' + url } });    // btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")}// 防抖function share() {    debounce(share_, 300);}]]></content>
       
     </entry>
     
@@ -401,43 +412,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/txmap.js"/>
-      <url>/js/txmap.js</url>
-      
-        <content type="html"><![CDATA[//get请求$.ajax({    type: 'get',    url: 'https://apis.map.qq.com/ws/location/v1/ip',    data: {        key: 'QDKBZ-XVZ2T-CB3XJ-VWNIA-PCLU2-INBU4',        output: 'jsonp',    },    dataType: 'jsonp',    success: function (res) {        ipLoacation = res;    }})function getDistance(e1, n1, e2, n2) {    const R = 6371    const {        sin,        cos,        asin,        PI,        hypot    } = Math    let getPoint = (e, n) => {        e *= PI / 180        n *= PI / 180        return {            x: cos(n) * cos(e),            y: cos(n) * sin(e),            z: sin(n)        }    }    let a = getPoint(e1, n1)    let b = getPoint(e2, n2)    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)    let r = asin(c / 2) * 2 * R    return Math.round(r);}function showWelcome() {    let dist = getDistance(108.94878, 34.22259, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度    let pos = ipLoacation.result.ad_info.nation;    let ip;    let posdesc;    //根据国家、省份、城市信息自定义欢迎语    switch (ipLoacation.result.ad_info.nation) {        case "日本":            posdesc = "よろしく，一起去看樱花吗";            break;        case "美国":            posdesc = "Let us live in peace!";            break;        case "英国":            posdesc = "想同你一起夜乘伦敦眼";            break;        case "俄罗斯":            posdesc = "干了这瓶伏特加！";            break;        case "法国":            posdesc = "C'est La Vie";            break;        case "德国":            posdesc = "Die Zeit verging im Fluge.";            break;        case "澳大利亚":            posdesc = "一起去大堡礁吧！";            break;        case "加拿大":            posdesc = "拾起一片枫叶赠予你";            break;        case "中国":            pos = ipLoacation.result.ad_info.province + " " + ipLoacation.result.ad_info.city + " " + ipLoacation.result.ad_info.district;            ip = ipLoacation.result.ip;            switch (ipLoacation.result.ad_info.province) {                case "北京市":                    posdesc = "北——京——欢迎你~~~";                    break;                case "天津市":                    posdesc = "讲段相声吧。";                    break;                case "河北省":                    posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";                    break;                case "山西省":                    posdesc = "展开坐具长三尺，已占山河五百余。";                    break;                case "内蒙古自治区":                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";                    break;                case "辽宁省":                    posdesc = "我想吃烤鸡架！";                    break;                case "吉林省":                    posdesc = "状元阁就是东北烧烤之王。";                    break;                case "黑龙江省":                    posdesc = "很喜欢哈尔滨大剧院。";                    break;                case "上海市":                    posdesc = "众所周知，中国只有两个城市。";                    break;                case "江苏省":                    switch (ipLoacation.result.ad_info.city) {                        case "南京市":                            posdesc = "这是我挺想去的城市啦。";                            break;                        case "苏州市":                            posdesc = "上有天堂，下有苏杭。";                            break;                        default:                            posdesc = "散装是必须要散装的。";                            break;                    }                    break;                case "浙江省":                    posdesc = "东风渐绿西湖柳，雁已还人未南归。";                    break;                case "河南省":                    switch (ipLoacation.result.ad_info.city) {                        case "郑州市":                            posdesc = "豫州之域，天地之中。";                            break;                        case "南阳市":                            posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";                            break;                        case "驻马店市":                            posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";                            break;                        case "开封市":                            posdesc = "刚正不阿包青天。";                            break;                        case "洛阳市":                            posdesc = "洛阳牡丹甲天下。";                            break;                        default:                            posdesc = "可否带我品尝河南烩面啦？";                            break;                    }                    break;                case "安徽省":                    posdesc = "蚌埠住了，芜湖起飞。";                    break;                case "福建省":                    posdesc = "井邑白云间，岩城远带山。";                    break;                case "江西省":                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";                    break;                case "山东省":                    posdesc = "遥望齐州九点烟，一泓海水杯中泻。";                    break;                case "湖北省":                    posdesc = "来碗热干面！";                    break;                case "湖南省":                    posdesc = "74751，长沙斯塔克。";                    break;                case "广东省":                    posdesc = "老板来两斤福建人。";                    break;                case "广西壮族自治区":                    posdesc = "桂林山水甲天下。";                    break;                case "海南省":                    posdesc = "朝观日出逐白浪，夕看云起收霞光。";                    break;                case "四川省":                    posdesc = "康康川妹子。";                    break;                case "贵州省":                    posdesc = "茅台，学生，再塞200。";                    break;                case "云南省":                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天。";                    break;                case "西藏自治区":                    posdesc = "躺在茫茫草原上，仰望蓝天。";                    break;                case "陕西省":                    posdesc = "来份臊子面加馍。";                    break;                case "甘肃省":                    posdesc = "羌笛何须怨杨柳，春风不度玉门关。";                    break;                case "青海省":                    posdesc = "牛肉干和老酸奶都好好吃。";                    break;                case "宁夏回族自治区":                    posdesc = "大漠孤烟直，长河落日圆。";                    break;                case "新疆维吾尔自治区":                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风。";                    break;                case "台湾省":                    posdesc = "我在这头，大陆在那头。";                    break;                case "香港特别行政区":                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉。";                    break;                case "澳门特别行政区":                    posdesc = "性感荷官，在线发牌。";                    break;                default:                    posdesc = "带我去你的城市逛逛吧！";                    break;            }            break;        default:            posdesc = "带我去你的国家逛逛吧。";            break;    }    //根据本地时间切换欢迎语    let timeChange;    let date = new Date();    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，一起饮茶呀！";    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";    else timeChange = "夜深了，早点休息，少熬夜。";    try {        //自定义文本和需要放的位置        document.getElementById("welcome-info").innerHTML =            `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;    } catch (err) {        // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")    }}window.onload = showWelcome;// 如果使用了pjax在加上下面这行代码document.addEventListener('pjax:complete', showWelcome);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {    window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;    var n, e, i, h, t = .05,        s = document.getElementById("universe"),        o = !0,        a = "180,184,240",        r = "226,225,142",        d = "226,225,224",        c = [];    function f() {        n = window.innerWidth, e = window.innerHeight, i = .216 * n, s.setAttribute("width", n), s.setAttribute("height", e)    }    function u() {        h.clearRect(0, 0, n, e);        for (var t = c.length, i = 0; i < t; i++) {            var s = c[i];            s.move(), s.fadeIn(), s.fadeOut(), s.draw()        }    }    function y() {        this.reset = function () {            this.giant = m(3), this.comet = !this.giant && !o && m(10), this.x = l(0, n - 10), this.y = l(0, e), this.r = l(1.1, 2.6), this.dx = l(t, 6 * t) + (this.comet + 1 - 1) * t * l(50, 120) + 2 * t, this.dy = -l(t, 6 * t) - (this.comet + 1 - 1) * t * l(50, 120), this.fadingOut = null, this.fadingIn = !0, this.opacity = 0, this.opacityTresh = l(.2, 1 - .4 * (this.comet + 1 - 1)), this.do = l(5e-4, .002) + .001 * (this.comet + 1 - 1)        }, this.fadeIn = function () {            this.fadingIn && (this.fadingIn = !(this.opacity > this.opacityTresh), this.opacity += this.do)        }, this.fadeOut = function () {            this.fadingOut && (this.fadingOut = !(this.opacity < 0), this.opacity -= this.do / 2, (this.x > n || this.y < 0) && (this.fadingOut = !1, this.reset()))        }, this.draw = function () {            if (h.beginPath(), this.giant) h.fillStyle = "rgba(" + a + "," + this.opacity + ")", h.arc(this.x, this.y, 2, 0, 2 * Math.PI, !1);            else if (this.comet) {                h.fillStyle = "rgba(" + d + "," + this.opacity + ")", h.arc(this.x, this.y, 1.5, 0, 2 * Math.PI, !1);                for (var t = 0; t < 30; t++) h.fillStyle = "rgba(" + d + "," + (this.opacity - this.opacity / 20 * t) + ")", h.rect(this.x - this.dx / 4 * t, this.y - this.dy / 4 * t - 2, 2, 2), h.fill()            } else h.fillStyle = "rgba(" + r + "," + this.opacity + ")", h.rect(this.x, this.y, this.r, this.r);            h.closePath(), h.fill()        }, this.move = function () {            this.x += this.dx, this.y += this.dy, !1 === this.fadingOut && this.reset(), (this.x > n - n / 4 || this.y < 0) && (this.fadingOut = !0)        }, setTimeout(function () {            o = !1        }, 50)    }    function m(t) {        return Math.floor(1e3 * Math.random()) + 1 < 10 * t    }    function l(t, i) {        return Math.random() * (i - t) + t    }    f(), window.addEventListener("resize", f, !1),        function () {            h = s.getContext("2d");            for (var t = 0; t < i; t++) c[t] = new y, c[t].reset();            u()        }(),        function t() {            document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark' && u(), window.requestAnimationFrame(t)        }()};dark()]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/weather.js"/>
-      <url>/js/weather.js</url>
-      
-        <content type="html"><![CDATA[WIDGET = {    "CONFIG": {        "modules": "01234",        "background": "5",        "tmpColor": "E1CCAD",        "tmpSize": "16",        "cityColor": "DEADC2",        "citySize": "16",        "aqiColor": "6ABCCC",        "aqiSize": "16",        "weatherIconSize": "24",        "alertIconSize": "18",        "padding": "10px 10px 10px 10px",        "shadow": "0",        "language": "auto",        "fixed": "false",        "vertical": "top",        "horizontal": "left",        "key": "0616e5da16784285996545d136f7d385"    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/library/index.html"/>
-      <url>/library/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -455,6 +433,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/weather.js"/>
+      <url>/js/weather.js</url>
+      
+        <content type="html"><![CDATA[WIDGET = {    "CONFIG": {        "modules": "01234",        "background": "5",        "tmpColor": "E1CCAD",        "tmpSize": "16",        "cityColor": "DEADC2",        "citySize": "16",        "aqiColor": "6ABCCC",        "aqiSize": "16",        "weatherIconSize": "24",        "alertIconSize": "18",        "padding": "10px 10px 10px 10px",        "shadow": "0",        "language": "auto",        "fixed": "false",        "vertical": "top",        "horizontal": "left",        "key": "0616e5da16784285996545d136f7d385"    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
@@ -466,11 +455,11 @@
     
     
     <entry>
-      <title>nav</title>
-      <link href="/nav/index.html"/>
-      <url>/nav/index.html</url>
+      <title></title>
+      <link href="/js/txmap.js"/>
+      <url>/js/txmap.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[//get请求$.ajax({    type: 'get',    url: 'https://apis.map.qq.com/ws/location/v1/ip',    data: {        key: 'QDKBZ-XVZ2T-CB3XJ-VWNIA-PCLU2-INBU4',        output: 'jsonp',    },    dataType: 'jsonp',    success: function (res) {        ipLoacation = res;    }})function getDistance(e1, n1, e2, n2) {    const R = 6371    const {        sin,        cos,        asin,        PI,        hypot    } = Math    let getPoint = (e, n) => {        e *= PI / 180        n *= PI / 180        return {            x: cos(n) * cos(e),            y: cos(n) * sin(e),            z: sin(n)        }    }    let a = getPoint(e1, n1)    let b = getPoint(e2, n2)    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)    let r = asin(c / 2) * 2 * R    return Math.round(r);}function showWelcome() {    let dist = getDistance(108.94878, 34.22259, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度    let pos = ipLoacation.result.ad_info.nation;    let ip;    let posdesc;    //根据国家、省份、城市信息自定义欢迎语    switch (ipLoacation.result.ad_info.nation) {        case "日本":            posdesc = "よろしく，一起去看樱花吗";            break;        case "美国":            posdesc = "Let us live in peace!";            break;        case "英国":            posdesc = "想同你一起夜乘伦敦眼";            break;        case "俄罗斯":            posdesc = "干了这瓶伏特加！";            break;        case "法国":            posdesc = "C'est La Vie";            break;        case "德国":            posdesc = "Die Zeit verging im Fluge.";            break;        case "澳大利亚":            posdesc = "一起去大堡礁吧！";            break;        case "加拿大":            posdesc = "拾起一片枫叶赠予你";            break;        case "中国":            pos = ipLoacation.result.ad_info.province + " " + ipLoacation.result.ad_info.city + " " + ipLoacation.result.ad_info.district;            ip = ipLoacation.result.ip;            switch (ipLoacation.result.ad_info.province) {                case "北京市":                    posdesc = "北——京——欢迎你~~~";                    break;                case "天津市":                    posdesc = "讲段相声吧。";                    break;                case "河北省":                    posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";                    break;                case "山西省":                    posdesc = "展开坐具长三尺，已占山河五百余。";                    break;                case "内蒙古自治区":                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";                    break;                case "辽宁省":                    posdesc = "我想吃烤鸡架！";                    break;                case "吉林省":                    posdesc = "状元阁就是东北烧烤之王。";                    break;                case "黑龙江省":                    posdesc = "很喜欢哈尔滨大剧院。";                    break;                case "上海市":                    posdesc = "众所周知，中国只有两个城市。";                    break;                case "江苏省":                    switch (ipLoacation.result.ad_info.city) {                        case "南京市":                            posdesc = "这是我挺想去的城市啦。";                            break;                        case "苏州市":                            posdesc = "上有天堂，下有苏杭。";                            break;                        default:                            posdesc = "散装是必须要散装的。";                            break;                    }                    break;                case "浙江省":                    posdesc = "东风渐绿西湖柳，雁已还人未南归。";                    break;                case "河南省":                    switch (ipLoacation.result.ad_info.city) {                        case "郑州市":                            posdesc = "豫州之域，天地之中。";                            break;                        case "南阳市":                            posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";                            break;                        case "驻马店市":                            posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";                            break;                        case "开封市":                            posdesc = "刚正不阿包青天。";                            break;                        case "洛阳市":                            posdesc = "洛阳牡丹甲天下。";                            break;                        default:                            posdesc = "可否带我品尝河南烩面啦？";                            break;                    }                    break;                case "安徽省":                    posdesc = "蚌埠住了，芜湖起飞。";                    break;                case "福建省":                    posdesc = "井邑白云间，岩城远带山。";                    break;                case "江西省":                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";                    break;                case "山东省":                    posdesc = "遥望齐州九点烟，一泓海水杯中泻。";                    break;                case "湖北省":                    posdesc = "来碗热干面！";                    break;                case "湖南省":                    posdesc = "74751，长沙斯塔克。";                    break;                case "广东省":                    posdesc = "老板来两斤福建人。";                    break;                case "广西壮族自治区":                    posdesc = "桂林山水甲天下。";                    break;                case "海南省":                    posdesc = "朝观日出逐白浪，夕看云起收霞光。";                    break;                case "四川省":                    posdesc = "康康川妹子。";                    break;                case "贵州省":                    posdesc = "茅台，学生，再塞200。";                    break;                case "云南省":                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天。";                    break;                case "西藏自治区":                    posdesc = "躺在茫茫草原上，仰望蓝天。";                    break;                case "陕西省":                    posdesc = "来份臊子面加馍。";                    break;                case "甘肃省":                    posdesc = "羌笛何须怨杨柳，春风不度玉门关。";                    break;                case "青海省":                    posdesc = "牛肉干和老酸奶都好好吃。";                    break;                case "宁夏回族自治区":                    posdesc = "大漠孤烟直，长河落日圆。";                    break;                case "新疆维吾尔自治区":                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风。";                    break;                case "台湾省":                    posdesc = "我在这头，大陆在那头。";                    break;                case "香港特别行政区":                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉。";                    break;                case "澳门特别行政区":                    posdesc = "性感荷官，在线发牌。";                    break;                default:                    posdesc = "带我去你的城市逛逛吧！";                    break;            }            break;        default:            posdesc = "带我去你的国家逛逛吧。";            break;    }    //根据本地时间切换欢迎语    let timeChange;    let date = new Date();    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，一日之计在于晨！";    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，该摸鱼吃午饭了。";    else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，懒懒地睡个午觉吧！";    else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>三点几啦</span>，一起饮茶呀！";    else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";    else timeChange = "夜深了，早点休息，少熬夜。";    try {        //自定义文本和需要放的位置        document.getElementById("welcome-info").innerHTML =            `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;    } catch (err) {        // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")    }}window.onload = showWelcome;// 如果使用了pjax在加上下面这行代码document.addEventListener('pjax:complete', showWelcome);]]></content>
       
     </entry>
     
@@ -499,11 +488,11 @@
     
     
     <entry>
-      <title>posts</title>
-      <link href="/posts/index.html"/>
-      <url>/posts/index.html</url>
+      <title>nav</title>
+      <link href="/nav/index.html"/>
+      <url>/nav/index.html</url>
       
-        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -515,6 +504,17 @@
       <url>/site/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>posts</title>
+      <link href="/posts/index.html"/>
+      <url>/posts/index.html</url>
+      
+        <content type="html"><![CDATA[<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
       
     </entry>
     
