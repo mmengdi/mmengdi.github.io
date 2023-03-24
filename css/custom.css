@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>/* 页脚与头图透明 */
+/* 页脚与头图透明 */
 #footer {
     background: transparent !important;
 }
@@ -259,10 +259,12 @@
 } */
 
 /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
+/* .menus_items .menus_item:nth-child(2) .menus_item_child {
     left: -38px;
+} */
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+    margin-right: -25%;
 }
-
 
 /* 翻页按钮居中 */
 #pagination {
@@ -1260,9 +1262,11 @@ h6::before {
     width: 100%;
 }
 
-.page:not(.page.home) .aside-content {
+
+
+/* .page:not(.page.home) .aside-content {
     display: none;
-}
+} */
 
 
 /* twikoo评论美化 */

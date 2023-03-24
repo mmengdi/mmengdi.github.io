@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>let newYearTimer = null;
+let newYearTimer = null;
 var newYear = () => {
     clearTimeout(newYearTimer);
     if (!document.querySelector('#newYear')) return;
@@ -72,5 +72,3 @@ var newYear = () => {
 // 开了Pjax的用以下两句
 document.addEventListener('pjax:complete', newYear);
 document.addEventListener('DOMContentLoaded', newYear);
-
-

@@ -1,21 +1,22 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>WIDGET = {
+WIDGET = {
     "CONFIG": {
         "modules": "01234",
         "background": "5",
-        "tmpColor": "E1CCAD",
+        "tmpColor": "B361B3",
         "tmpSize": "16",
-        "cityColor": "DEADC2",
+        "cityColor": "021C1B",
         "citySize": "16",
-        "aqiColor": "6ABCCC",
+        "aqiColor": "C76534",
         "aqiSize": "16",
         "weatherIconSize": "24",
         "alertIconSize": "18",
         "padding": "10px 10px 10px 10px",
-        "shadow": "0",
+        "shadow": "1",
         "language": "auto",
+        "borderRadius": "5",
         "fixed": "false",
         "vertical": "top",
         "horizontal": "left",
-        "key": "0616e5da16784285996545d136f7d385"
+        "key": "5e7a85a4f683461bad90ad975ab3188d"
     }
 }
