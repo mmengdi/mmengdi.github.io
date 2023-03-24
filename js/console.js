@@ -1,4 +1,4 @@
-var now1 = new Date();
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>var now1 = new Date();
 
 function createtime1() {
     var grt = new Date("03/18/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间

@@ -1,4 +1,4 @@
-window.onscroll = percent; // 执行函数
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>window.onscroll = percent; // 执行函数
 // 页面百分比
 function percent() {
     let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度

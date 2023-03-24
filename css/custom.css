@@ -1,4 +1,4 @@
-/* 页脚与头图透明 */
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>/* 页脚与头图透明 */
 #footer {
     background: transparent !important;
 }
@@ -1534,3 +1534,8 @@ svg.social_icon {
     }
 }
 
+
+/* 飘雪页脚空白bug */
+canvas#snow {
+    position: fixed;
+}
