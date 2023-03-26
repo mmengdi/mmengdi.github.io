@@ -311,7 +311,7 @@
 
 /* 鼠标样式2.0 */
 body {
-    cursor: url(https://s1.vika.cn/space/2023/03/22/6b1de9e60b604161b470f6b6dcc3448b),
+    cursor: url(../img/normal.cur),
         auto;
 }
 
@@ -1388,7 +1388,7 @@ svg.social_icon {
 /* 公众号 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #a8dedc !important;
+    background: #e9a616 !important;
 }
 
 #aside-content .card-widget#card-wechat {
@@ -1543,3 +1543,15 @@ svg.social_icon {
 canvas#snow {
     position: fixed;
 }
+
+/* 这里可以自定义iconfont图标大小 */
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 1.05em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
