@@ -96,12 +96,6 @@ if (m == 9 && dd == 10) { //教师节
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
-if (m == 11 && dd == 1) { //你的生日
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("祝你今天生日快乐！🎂🎂🎂");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
 if (m == 12 && dd == 25) { //圣诞节
     if (sessionStorage.getItem("isPopupWindow") != "1") {
         Swal.fire("圣诞节快乐！🎄");
@@ -170,7 +164,13 @@ if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
-
+if ((lunar["IMonthCn"] == "十一月" && lunar["IDayCn"] == "初一")) {
+    //你的生日
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("生日快乐\n今天又长大了一岁呀！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 // 切换主题提醒
 if (y == 2023 && m == 12 && (dd >= 18 && dd <= 20)) {
     if (sessionStorage.getItem("isPopupWindow") != "1") {

@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Hello My First Blog</title>
+      <link href="/mmengdi/251.html"/>
+      <url>/mmengdi/251.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>你猜这是什么</title>
       <link href="/mmengdi/44954.html"/>
       <url>/mmengdi/44954.html</url>
@@ -53,7 +66,7 @@
       <link href="/mmengdi/272.html"/>
       <url>/mmengdi/272.html</url>
       
-        <content type="html"><![CDATA[<h1 id="快乐是什么？"><a href="#快乐是什么？" class="headerlink" title="快乐是什么？"></a>快乐是什么？</h1><!--  seovx随机美图let seovx = "url(https://cdn.seovx.com/?mom=302)"; --><!-- https://cdn.seovx.com/?mom=302 --><!-- 文章页面自定义背景图片 --><style>#web_bg{  background: url(https://api.yimian.xyz/img?type=moe&size=1920x1080)!important;  /*重新定义background会导致原有定位属性失效，所以也需要再声明一次加权的定位属性*/  background-position: center !important;  background-size: cover !important;  background-repeat: no-repeat !important;}</style>]]></content>
+        <content type="html"><![CDATA[<h1 id="快乐是什么？"><a href="#快乐是什么？" class="headerlink" title="快乐是什么？"></a>快乐是什么？</h1><!--  seovx随机美图let seovx = "url(https://cdn.seovx.com/?mom=302)"; --><!-- https://cdn.seovx.com/?mom=302 --><!-- 文章页面自定义背景图片 --><style>#web_bg{  background: url(https://api.ixiaowai.cn/gqapi/gqapi2.php)!important;  /*重新定义background会导致原有定位属性失效，所以也需要再声明一次加权的定位属性*/  background-position: center !important;  background-size: cover !important;  background-repeat: no-repeat !important;}</style>]]></content>
       
       
       
